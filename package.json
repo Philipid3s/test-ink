@@ -1,0 +1,23 @@
+{
+ "name": "test-ink",
+ "version": "1.0.0",
+ "description": "ink test",
+ "main": "index.js",
+ "scripts": {
+  "build": "babel src -d build",
+  "start": "node build/main.js"
+ },
+ "author": "Julien Regnault",
+ "license": "MIT",
+ "dependencies": {
+  "ink": "^2.0.0-11",
+  "react": "^16.7.0",
+  "react-dom": "^16.7.0"
+ },
+
+ "devDependencies": {
+  "babel-cli": "^6.26.0",
+  "babel-plugin-transform-react-jsx": "^6.24.1",
+  "babel-preset-env": "^1.7.0"
+ }
+}
